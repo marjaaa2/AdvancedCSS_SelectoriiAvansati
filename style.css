@@ -1,0 +1,29 @@
+/* Linkurile Google să apară coloreate în verde */
+a[href^="https://www.google.com"] {
+    color: green;
+}
+
+/* Linkul către LINK group să apară colorat în roșu */
+a[href="https://www.link-group.eu/"] {
+    color: red;
+}
+
+/* Paragrafele din #second-div să fie colorate alternativ în roșu (cele cu soț) și în albastru (cele impare) */
+#second-div p:nth-child(even) {
+    color: red;
+}
+
+#second-div p:nth-child(odd) {
+    color: blue;
+}
+
+/* Să introducem etichetuța NEW colorată în galben după paragrafele 2 și 3 */
+.new-text {
+    color: yellow;
+    font-weight: bold;
+}
+
+/* Paragraph 10 devine italic când punem cursorul mouse-ului peste sintagmă */
+.italic-hover:hover {
+    font-style: italic;
+}
